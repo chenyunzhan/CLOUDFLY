@@ -1,0 +1,4206 @@
+/*
+
+
+
+Theme Name: Cool Junk
+
+
+
+Theme URI: http://http://cooljunk.in
+
+
+
+Description: This is Cool Junk Wordpress Theme
+
+
+
+Version: 1.01
+
+
+
+Author: Nybble Tech
+
+
+
+Tags: Cool Junk , Cool Junk Benefits, Cool Junk Videos
+
+
+
+*/
+
+
+
+@import url('SpryAssets/SpryTabbedPanels.css');
+
+
+
+body{
+
+
+
+	position:relative;
+
+
+
+	background:url(images/bg.png) repeat top center;
+
+
+
+	margin:0 auto;
+
+
+
+	width:100%;
+
+
+
+	height:auto;
+
+
+
+	color:#707070;
+
+
+
+	font-size:16px;
+
+
+
+	font-family:calibri;
+
+
+
+	font-weight:400;
+
+
+
+	
+
+
+
+}
+
+
+
+img{border:none; outline:none; }
+
+
+
+.img_rite{width:auto; height:auto; padding:10px 0px 10px 10px; float:right; z-index:8}
+
+
+
+.img_left{width:auto; height:auto; padding:10px; float:left; z-index:8}
+
+
+
+
+
+
+
+form{margin:10px 0 0; padding:0;}
+
+
+
+
+
+
+
+.clear { width:0; padding:0; height:0; margin:0; clear:both;}
+
+
+
+
+
+
+
+hr{position:relative; background:none; width:100%; height:1px;
+
+
+
+ padding:10px 0 0; outline: none; border: none; margin:0 0 10px; background: url(images/about_right_seprator.png) repeat-x center top;}
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p { margin:0; padding:5px 0px; line-height: 25px;}
+
+
+
+
+
+
+
+a {text-decoration:none; color:#005288;}
+
+
+
+
+
+
+
+a:hover {text-decoration:underline; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {color:#005288;	font-size:38px;	margin:0; padding:0;  }
+
+
+
+
+
+
+
+h2 {  color:#005288;		font-size:31px; margin:0; padding:0; }
+
+
+
+
+
+
+
+h3 { 	color:#005288;		font-size:30px;	margin:0; padding:0; 	}
+
+
+
+
+
+
+
+h4{color:#005288;	font-size:23px;	margin:0;padding: 0px; text-transform:uppercase;}
+
+
+
+
+
+
+
+h5{color:#005288;	font-size:22px; margin:0; padding:0; 	}
+
+
+
+
+
+
+
+h6{color:#707070;	font-size:17px; margin:0; padding-bottom:19px;  }
+
+
+
+
+
+
+
+
+
+
+
+.buy_now {
+
+
+
+	position:relative;
+
+
+
+	width:140px;
+
+
+
+	height:40px;
+
+
+
+	float:right;
+
+
+
+	margin-top: 22px;
+
+
+
+	margin-left: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+.container
+
+
+
+{
+
+
+
+	position:relative;
+
+
+
+	margin:0 auto;
+
+
+
+	width:1100px;
+
+
+
+	height:auto;
+
+
+
+}
+
+
+
+
+
+
+
+.insider{
+
+
+
+position:relative;
+
+
+
+width:auto;
+
+
+
+height:auto;
+
+
+
+padding:25px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.top_bg{ position:relative; background:url(images/top_bg.jpg) repeat-x  center top; width:100%; height:77px; margin:0; 
+
+
+
+padding:0;}
+
+
+
+
+
+
+
+
+
+
+
+.logo{	position:relative;	width:auto;	height:auto;	float:left;	padding:8px 0px 0px 1px;}
+
+
+
+
+
+
+
+.bg_img_left{display:none; position:fixed; background:url(images/background_img_left.png) no-repeat left top; left:1px; top:125px; width:106px; height:565px;}
+
+
+
+
+
+
+
+.bg_img_rite{ display:none; position:fixed; background:url(images/background_img_right.png) no-repeat left top; width:99px; height:360px; 
+
+
+
+right:1px; top:350px;}
+
+
+
+
+
+
+
+
+
+
+
+/*NAVIGATION*/
+
+
+
+
+
+
+
+.nav {position: relative; float:right; width:auto;height:auto;margin:16px 4px 0 0px;}	
+
+
+
+
+
+
+
+ul.menu {margin:0px;padding:0px;list-style:none; }
+
+
+
+ul.menu li { position:relative;width:auto;height: auto; margin:0 ;padding:5px 6px 0px; line-height:40px; float:left;font-size:17px; }
+
+
+
+
+
+
+
+ul.menu li a {display:block;color:#fff;width:auto; height:auto; position:relative; line-height:40px; vertical-align:middle;}
+
+
+
+ul.menu li a span{position:relative; left:-24px; display:block;height:40px;padding-left:24px;}
+
+
+
+ul.menu li a:hover {background: url(images/nav_hover_right.png) no-repeat right top;position:relative; text-decoration:none; color:#fff;}
+
+
+
+ul.menu li a:hover span {background: url(images/nav_hover_left.png) no-repeat 0px top;}
+
+
+
+
+
+
+
+
+
+
+
+ul.menu li:first-child{padding-left:0;}
+
+
+
+ul.menu li:last-child{ padding-left:0px; padding-right:0;}
+
+
+
+
+
+
+
+
+
+
+
+ul.menu ul {position:absolute; top:40px; left:0px; display:none;  list-style:none; padding:0; margin:0; z-index:99999; }
+
+
+
+	
+
+
+
+ul.menu ul li {position:relative; line-height:20px; font-size:15px; vertical-align:middle;font-weight:100;width:180px; 
+
+
+
+	padding:0; margin:0; height:auto; text-align:left; }
+
+
+
+					
+
+
+
+ul.menu ul li:first-child { padding:0px; margin:0; border-radius:5px !important;}
+
+
+
+
+
+
+
+ul.menu ul li:last-child a{ border-radius:0 0 5px 5px !important;    z-index:99999;  }
+
+
+
+ul.menu ul li:last-child.current_page_item { border-radius:0 0 5px 5px !important; }	
+
+
+
+ul.menu ul li:last-child a:hover{ border-radius:0 0 5px 5px !important; z-index:99999;  background:none !important; background-color:#005288 !important;  color:#FFF !important; }	
+
+
+
+ul.menu ul li:first-child a{ border-top:1px solid #000; border-radius:0 5px 0 0 !important;}	
+
+
+
+		
+
+
+
+ul.menu ul li a {display:block; padding:0; margin:0;  padding:0px 7px 0px 15px!important; color:#fff;background-color:#000 !important;border:1px solid #000; border-top:none; line-height:30px;border-radius:0 !important; 
+
+
+
+}
+
+
+
+ul.menu ul li.current_page_item a{ background:none !important;color:#FFFFFF;padding:0px 7px!important; border-radius:0 !important;text-decoration:none;}	
+
+
+
+ul.menu ul li a:hover { text-decoration: none; color:#FFF;   height:30px;  border-radius:0;  padding:0px 7px; margin:0; line-height:30px;  background:none !important; background-color:#005288 !important;}
+
+
+
+	
+
+
+
+ul.menu ul ul {left:180px; top:-1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav_search{position:relative;	background:url(images/top_search_feild.png) no-repeat center; float:right;height:41px;width:192px;margin:19px 4px 0 14px; }
+
+
+
+
+
+
+
+.search_txtbx{ position:relative;background:none;font-size:15px;color:#8cadc2;line-height:15px;	vertical-align:middle;	width:140px;height:28px;margin:-4px 0 0 10px;padding:0px 0px 0px 30px;	border:none;  outline:none;}
+
+
+
+
+
+
+
+.btn_search{ position:absolute; background:none; width:25px; height:27px; top:10px; left:10px; border:none; outline:none; cursor:pointer; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BANNER */
+
+
+
+
+
+
+
+.banner {	position:relative; width:1100px;  height:575px; margin:0 auto; padding:0;}
+
+
+
+
+
+
+
+
+
+
+
+.banner .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(images/banner_bullet.png) no-repeat scroll 0 0 transparent !important;width: 17px;
+
+
+
+height: 17px; padding-right:3px; }
+
+
+
+.banner .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+
+
+
+
+.banner .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+top: 551px !important;
+
+
+
+left: 500px !important;
+
+
+
+}
+
+
+
+
+
+
+
+.banner_vid1 { position:absolute; width:160px; height:116px; top:-244px; left:0px; z-index:999;}
+
+
+
+
+
+
+
+.banner_vid2 { position:absolute; width:160px; height:116px; top:-244px; left:176px; z-index:999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INDEX - PAGE */
+
+
+
+
+
+
+
+.content_bg_top{ position:relative; background:url(images/content_top_bg.png) no-repeat center top; width:1100px; height:18px; margin:0 auto; margin-top:12px;}
+
+
+
+
+
+
+
+.content_bg_mid{ position:relative; background:url(images/content_mid_bg.png) repeat-y center top; width:1100px; height:auto; margin:0 auto;}
+
+
+
+
+
+
+
+.content_bg_bottom{ position:relative; background:url(images/content_bottom_bg.png) no-repeat center top; width:1100px; height:18px; margin:0 auto;}
+
+
+
+	
+
+
+
+	
+
+
+
+.content_top{ position:relative; background:url(images/img_buildvatiety.jpg) no-repeat center top; width:1098px; height:437px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.build{ position:relative; float:right; width:474px; height:auto; margin-right: 123px; margin-top: 63px;}
+
+
+
+p.content{ font-size:20px; line-height: 28px;}
+
+
+
+
+
+
+
+.build_videos{ position: relative;	  width:auto;height:auto;margin:10px 0 0px 2px;  text-align:center;}
+
+
+
+.build_videos p{ font-size:15px; }
+
+
+
+
+
+
+
+ul.build_vid_list{ margin:0px;padding:0px;list-style:none; }
+
+
+
+
+
+
+
+ul.build_vid_list li { position:relative;width:auto;height: auto; margin:0 ;padding:6px 8px 0px;  float:left; }
+
+
+
+ul.build_vid_list li:first-child{ padding-left:0;}
+
+
+
+ul.build_vid_list li:last-child{ padding-right:0;}
+
+
+
+
+
+
+
+
+
+
+
+.content_mid{ position:relative; background:url(images/img_refer_book.jpg) no-repeat center top; width:1098px; height:437px; margin:0; padding-left:2px; }
+
+
+
+ 
+
+
+
+.book{ position:relative; float:left; width:463px; height:auto; margin-left: 103px; margin-top: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+.content_bottom{ position:relative; background:url(images/img_trouble_building.jpg) no-repeat center top; width:1098px; 
+
+
+
+height:437px; margin:0;padding-left:2px;}
+
+
+
+
+
+
+
+.refer{ position:relative; float:right; width:460px; height:auto; margin-right: 50px;margin-top: 57px;}
+
+
+
+
+
+
+
+
+
+
+
+.prob_bg{ position:relative; background:url(images/content_still_problem_bg.jpg) no-repeat center top; width:1098px; height:260px; padding-left:2px;}
+
+
+
+
+
+
+
+.prob_bg h1{ font-size:43px; text-align:center; padding-top:30px;}
+
+
+
+
+
+
+
+.prob_bg p{ font-size:24px; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+.email{ position:relative; float:left; background:url(images/content_still_problem_icon_maill.png) no-repeat left 3px; width:auto; height:41px; padding-left:50px; margin-left:250px;margin-top: 13px; }
+
+
+
+
+
+
+
+
+
+
+
+.call{ position:relative; float:left; background:url(images/content_still_problem_icon_call.png) no-repeat left center; width:auto; height:46px; padding-left:40px; margin-left:60px; margin-top: 13px; }
+
+
+
+
+
+
+
+.chat{ position:relative; float:left; background:url(images/content_still_problem_icon_chat.png) no-repeat left center; width:auto; height:45px; padding-left:55px; margin-left:60px; margin-top: 13px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testi_left{position:relative; float:left; width:450px; height:auto; margin-left: 52px;margin-bottom:20px; }
+
+
+
+
+
+
+
+.testi_left_logo{ position:relative;	width:auto;	height:auto;		padding:5px 0px 0px;}
+
+
+
+
+
+
+
+.testi_left_top_bg{  position:relative; background:url(images/content_testimonials_top1.png) no-repeat center top; width:450px;
+
+
+
+ height:30px; margin:10px 0 0 3px; }
+
+
+
+ 
+
+
+
+.testi_left_mid_bg{  position:relative; background:url(images/content_testimonials_mid1.png) repeat-y center top; width:450px;
+
+
+
+ height:auto; margin:0 0 0 3px; font-size:23px; text-align:center; font-style:italic; padding-top:5px;}
+
+
+
+ 
+
+
+
+.testi_left_bottom_bg{  position:relative; background:url(images/content_testimonials_botom1.png) no-repeat center top; width:450px; height:10px; margin:0 0 0 3px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testi_rite{position:relative; float:right; width:497px; height:auto; margin-right: 57px; margin-bottom:20px;}
+
+
+
+
+
+
+
+.testi_rite_logo{ position:relative; float:right;width:auto;	height:auto;		padding:5px 0px 0px;}
+
+
+
+
+
+
+
+.testi_rite_top_bg{  position:relative; background:url(images/content_testimonials_top2.png) no-repeat center top; width:497px;
+
+
+
+ height:30px; margin:10px 0 0; }
+
+
+
+ 
+
+
+
+.testi_rite_mid_bg{  position:relative; background:url(images/content_testimonials_mid2.png) repeat-y center top; width:497px;
+
+
+
+ height:auto; margin:0; font-size:23px; text-align:center; font-style:italic; padding-top:5px;}
+
+
+
+ 
+
+
+
+.testi_rite_bottom_bg{  position:relative; background:url(images/content_testimonials_bottom2.png) no-repeat center top; width:497px; height:10px; margin:0;}
+
+
+
+
+
+
+
+p.student{ font-size:21px; text-align:center;}
+
+
+
+p.today {font-size:28px; text-align:center; padding-bottom:24px;}
+
+
+
+
+
+
+
+p.tax{font-size:14px; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+/* VIDEOS - PAGE */
+
+
+
+
+
+
+
+.inner_banner {	position:relative; background:url(images/videos_banner_bg.png) no-repeat center top; width:1053px;  height:136px; margin:0px auto; padding:0px;}
+
+
+
+
+
+
+
+h1.banner_heading{ font-size:44px; color:#FFF; padding-top: 39px; padding-left: 40px;}
+
+
+
+
+
+
+
+.sub_left{ position:relative;  float:left; width: 750px;height: auto;margin-top: 14px; background: url(images/videos_content_seprator.png) repeat-y right 25px; padding-right:12px;  }
+
+
+
+
+
+
+
+p.course {font-size:24px; padding-top:0; }
+
+
+
+
+
+
+
+p.videos{ font-size:20px; padding-top:15px;}
+
+
+
+
+
+
+
+.vid_left{ position:relative; width:auto; height:auto; float:left;  margin-bottom:15px; margin-left:2px;}
+
+
+
+
+
+
+
+.vid_rite{ position:relative; width:auto; height:auto; float:right; margin-top:19px; margin-right:21px; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+ul.playlist{ margin:0;	padding:0;list-style:none; margin-top:8px; }
+
+
+
+
+
+
+
+ul.playlist li{  position:relative; font-size:14px;  	padding:3px 0px; line-height:36px;	width:199px;	height:auto; display:block; text-align:center; }
+
+
+
+ul.playlist li.current-menu-item a{ background:url(images/videos_content_video_playlist_hover.jpg) no-repeat center top;color:#FFF; }
+
+
+
+ul.playlist li a{display:block;	 color:#707070;}
+
+
+
+
+
+
+
+ul.playlist li a:hover { display:block; text-decoration:none; background:url(images/videos_content_video_playlist_hover.jpg) no-repeat center top;color:#FFF; }
+
+
+
+
+
+
+
+ul.playlist li a .selected_vid{ display:block; text-decoration:none; background:url(images/videos/videos_content_video_playlist_hover.jpg) no-repeat center top; color:#FFF;}
+
+
+
+
+
+
+
+.theory{ position:relative; float:left; background:url(images/videos_content_video1.png) no-repeat center top; width: 334px;height: auto;margin-left: 6px;margin-top: 20px; padding-top:334px; margin-bottom: 50px;}
+
+
+
+
+
+
+
+p.role{ font-size:26px; font-weight:bold; color:#005288; padding-left:24px;}
+
+
+
+
+
+
+
+.concept{ position:relative; background:url(images/theory_icon_discuse.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.read{ position:relative; background:url(images/theory_icon_read.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+
+
+
+
+.visualize{ position:relative; background:url(images/theory_icon_visualize.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.analyze{ position:relative; background:url(images/theory_icon_analyze.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.math{ position:relative; background:url(images/theory_icon_do_math.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+
+
+
+
+
+
+
+
+.practical{ position:relative; float:right; background:url(images/videos_content_video2.png) no-repeat center top; width: 372px;height: auto;margin-right: 6px;margin-top: 20px; padding-top:334px; margin-bottom: 50px;}
+
+
+
+
+
+
+
+
+
+
+
+.demo{ position:relative; background:url(images/practical_icon_do_live.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.circuits{ position:relative; background:url(images/practical_icon_build.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+
+
+
+
+.modify{ position:relative; background:url(images/practical_icon_modify.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.discuss{ position:relative; background:url(images/practical_icon_discuse.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+ 
+
+
+
+.make{ position:relative; background:url(images/practical_icon_make.png) no-repeat left center;
+
+
+
+ float:left; width: auto;height:34px;margin-left: 25px;margin-top: 12px; padding-left:55px; padding-top:10px; font-size:20px; color:#005288;} 
+
+
+
+
+
+
+
+
+
+
+
+.sub_rite{	position:relative;	float:right;	width:auto;	height:auto;	margin-top:34px;	margin-right: -4px;}
+
+
+
+
+
+
+
+.blog_bg_top{ position:relative; background:url(images/videos_content_right_kit1_top.png) no-repeat center top; width:267px; height:46px;}
+
+
+
+
+
+
+
+.blog_bg_top p{ font-size:19px; font-weight:bold; text-align:center; color:#FFF; padding-top:10px;}
+
+
+
+
+
+
+
+.blog_bg_mid{ position:relative; border:#DEDEDE 1px solid; border-radius:0 0 10px 10px; width:265px; height:auto; padding-top:15px; margin-bottom:20px;} 
+
+
+
+
+
+
+
+.blog_bg_mid p{ font-size:15px; padding:5px 18px; }
+
+
+
+
+
+
+
+.connect_bg_top{ position:relative; background:url(images/videos_content_right_connect_top.png) no-repeat center top; width:267px; height:15px;}
+
+
+
+
+
+
+
+.connect_bg_mid{ position:relative; background:url(images/videos_content_right_connect_mid.png) repeat-y center top; width:267px; height:auto;}
+
+
+
+
+
+
+
+.connect_bg_bottom{ position:relative; background:url(images/videos_content_right_connect_bottom.png) no-repeat center top;
+
+
+
+ width:267px; height:11px;}
+
+
+
+
+
+
+
+p.connect{ font-size:19px; font-weight:bold; text-align:center; color:#005288; padding-top:10px; line-height:20px;}
+
+
+
+
+
+
+
+.socialicons{ position:relative;   width:auto; height:auto; padding-top:32px;  padding-left:8px; padding-bottom:40px; }
+
+
+
+  
+
+
+
+.s_icon{position: relative;	width:24px;	height:24px;	float:left;	margin-left:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.connect_bg_mid p{ font-size:15px; padding:5px 18px; line-height: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+.newsletter_bg_top{ position:relative; background:url(images/videos_content_right_connect_top.png) no-repeat center top; width:267px; height:15px; margin-top:20px;}
+
+
+
+
+
+
+
+p.inbox{font-size:19px; font-weight:bold; color:#005288; padding-top:14px; padding-left:20px; line-height:20px;}
+
+
+
+
+
+
+
+.newsletter_bg_mid{ position:relative; background:url(images/videos_content_right_connect_mid.png) repeat-y center top; width:267px; height:auto; padding-top: 38px;}
+
+
+
+
+
+
+
+.newsletter_bg_mid p{ font-size:15px; padding:5px 21px;}
+
+
+
+
+
+
+
+.newsletter_bg_bottom{ position:relative; background:url(images/videos_content_right_connect_bottom.png) no-repeat center top;
+
+
+
+ width:267px; height:11px;}
+
+
+
+
+
+
+
+
+
+
+
+.scribe_form{ position:relative; width:226px; height:auto; margin:0;}
+
+
+
+
+
+
+
+.txtfield{ position:relative; background:url(images/videos_content_right_toutorial_feild.png) no-repeat center top;
+
+
+
+ width:226px; height:38px; font-size:18px; border:none; outline:none; color:#707070; margin-left:20px;  text-align:center; }
+
+
+
+ 
+
+
+
+.btn_subscribe{ position:relative; background:url(images/videos_content_right_toutorial_btn.png) no-repeat center top; 
+
+
+
+width:155px; height:41px; margin:10px 0px 0 60px; border:none; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BENEFITS - PAGE */
+
+
+
+
+
+
+
+
+
+
+
+.inner_nav_bg{ background:url(images/benefits_top_nav_bg.png) no-repeat center top; width:100%; min-width:1051px; height:48px; z-index:99; left:0px; margin: 10px 0 0 0;  }
+
+
+
+
+
+
+
+.inner_nav {position: relative; float:none; width:auto;height:auto;margin-left:40px;  }		
+
+
+
+
+
+
+
+ul.inner_nav_menu {margin:0px;padding:0px;list-style:none; }
+
+
+
+ul.inner_nav_menu li { position:relative;width:auto;height: auto; margin:0 ;padding:0px 11px; line-height:48px; float:left; }
+
+
+
+ul.inner_nav_menu li a{ color:#707070;}
+
+
+
+ul.inner_nav_menu li a:hover{ color:#005288; text-decoration:none;}
+
+
+
+
+
+
+
+ul.menu li:first-child{padding-left:0;}
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit1{ position:relative; background:url(images/benefits_content_img1.jpg) no-repeat center top; width:1098px; height:407px; margin:0; padding-left:2px; margin-top:40px; }
+
+
+
+
+
+
+
+.content_benefit1_rite{ position:relative; float:right; width:auto; height:auto;margin-top: 143px;margin-right: 43px;}
+
+
+
+
+
+
+
+h1.benefit1_heading{ font-size:52px;}
+
+
+
+
+
+
+
+p.benefit1{ font-size:26px; padding:0;}
+
+
+
+
+
+
+
+.content_benefit1_rite ol{ margin-top:5px; margin-left:-15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit2{ position:relative; background:url(images/benefits_content_img2.jpg) no-repeat center 32px; width:1098px; min-height:407px; height:auto; margin:0; padding-left:2px; padding-top:22px;}
+
+
+
+
+
+
+
+.content_benefit2_left{ position:relative; float:left; width:400px; height:auto;margin-top: 65px;margin-left: 60px;}
+
+
+
+
+
+
+
+.btn_aids{ position:relative; background:url(images/benefits_aid&physics_btn.png) no-repeat center top; width:224px; height:43px; margin-top:10px;cursor:pointer; margin-left: 60px;}
+
+
+
+
+
+
+
+.physics_content{position:relative; height:auto; background-color:white; padding:20px 0 0px; width:1000px;  margin-left: 60px; }
+
+
+
+
+
+
+
+.courseware{ position:relative; width:auto; height:auto; margin-top: 8px;}
+
+
+
+
+
+
+
+ul.course_list{ margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.course_list li{  position:relative; float: left; width:296px;height:auto; background:url(images/benefits_creativity_tick.png) no-repeat left center; height:24px;   padding-left:35px; padding-top:5px; line-height:24px; 
+
+
+
+margin:10px 0; }
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit3{ position:relative; background:url(images/benefits_content_img3.jpg) no-repeat center top; width:1098px; height:438px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.content_benefit3_rite{ position:relative; float:right; width:398px; height:auto;margin-top: 90px;margin-right: 40px;}
+
+
+
+.content_benefit3_rite p{ line-height:25px;}
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit4{ position:relative; background:url(images/benefits_content_img4.jpg) no-repeat center top; width:1098px; height:398px; margin:0; padding-left:2px; }
+
+
+
+
+
+
+
+.content_benefit4_left{ position:relative; float:left; width:403px; height:auto;margin-top: 72px;margin-left: 60px;}
+
+
+
+
+
+
+
+.content_benefit4_left p{ line-height:25px;}
+
+
+
+
+
+
+
+.content_benefit5{ position:relative; background:url(images/benefits_content_img5.jpg) no-repeat center top; width:1098px; height:398px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.content_benefit5_rite{ position:relative; float:right; width:403px; height:auto;margin-top: 72px;
+
+
+
+margin-right: 70px;}
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit6{ position:relative; background:url(images/benefits_content_img6.jpg) no-repeat center top; width:1098px; 
+
+
+
+height:409px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.content_benefit6_left{ position:relative; float:left; width:404px; height:auto;margin-top: 65px;margin-left: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit7{ position:relative; background:url(images/benefits_content_img7.jpg) no-repeat center top; width:1098px; 
+
+
+
+height:377px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.content_benefit7_rite{ position:relative; float:right; width:404px; height:auto;margin-top: 58px;margin-right: 78px;}
+
+
+
+
+
+
+
+
+
+
+
+.content_benefit8{ position:relative; background:url(images/benefits_content_img8.jpg) no-repeat center top; width:1098px; height:451px; margin:0; padding-left:2px;}
+
+
+
+
+
+
+
+.content_benefit8_left{ position:relative; float:left; width:506px; height:auto;margin-top: 60px;margin-left: 60px;}
+
+
+
+
+
+
+
+
+
+
+
+.benefit8{ position:relative; width:auto; height:auto; margin-top: 8px;}
+
+
+
+
+
+
+
+ul.benefit8_list{ margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.benefit8_list li{  position:relative; display:block;width:auto;height:auto; background:url(images/benefits_creativity_tick.png) no-repeat left center; height:24px; width:auto;   padding-left:32px; padding-top:5px; line-height:24px; 
+
+
+
+margin:10px 0; }
+
+
+
+ul.benefit8_list li:first-child{ margin-bottom:35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TESTIMONIALS - PAGE */
+
+
+
+
+
+
+
+
+
+
+
+.testi_vid_bg_top{ position:relative; background:url(images/testimonials_video_text_bg_top.png) no-repeat center top; width:732px; height:17px; margin-top:17px;}
+
+
+
+
+
+
+
+
+
+
+
+.testi_vid_bg_mid{ position:relative; background:url(images/testimonials_video_text_bg_mid.png) repeat-y center top; width:732px; height:auto;}
+
+
+
+
+
+
+
+.vid_name { position:relative;  width:auto; height:auto; line-height:22px; margin-left: 33px; }
+
+
+
+.vid_name p a{ font-size:22px; color:#707070; background:url(images/testimonials_video_text_arrow.png) no-repeat left center; display:block; height:22px; padding-left:25px;}
+
+
+
+
+
+
+
+.vid_name p a:hover{ font-size:22px; color:#005288; position:relative; background:url(images/testimonials_video_text_arrow_hover.png) no-repeat left center; display:block;padding-left:25px; }
+
+
+
+
+
+
+
+
+
+
+
+.testi_vid_bg_bottom{ position:relative; background:url(images/testimonials_video_text_bg_bottom.png) no-repeat center top;
+
+
+
+ width:732px; height:18px; }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ - PAGE */
+
+
+
+
+
+
+
+.faq_tabs{ position:relative; width:736px; height:auto; background:url(images/faq_tab_seprator.png) no-repeat center 42px; margin:15px auto 0; }
+
+
+
+
+
+
+
+
+
+
+
+h6.faq{ padding-bottom:10px;}
+
+
+
+
+
+
+
+ul.faq_list{margin:0px;padding:0px;list-style:disc; margin-bottom: 10px; line-height: 25px; }
+
+
+
+
+
+
+
+ul.faq_list li {margin-left: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT - PAGE */
+
+
+
+
+
+
+
+.about_testi_bg_top{ position:relative; background:url(images/about_content_testimonials_top.png) no-repeat center top; width:734px; height:13px; margin-top:20px;}
+
+
+
+
+
+
+
+.about_testi_bg_mid{ position:relative; background:url(images/about_content_testimonials_mid.png) repeat-y center top; width:734px; height:auto;}
+
+
+
+.about_testi_bg_mid p { font-size:28px; text-align:center; line-height: 40px; font-style: italic;}
+
+
+
+ 
+
+
+
+.about_testi_bg_bottom{ position:relative; background:url(images/about_content_testimonials_bottom.png) no-repeat center top;
+
+
+
+ width:734px; height:45px; margin-bottom:15px;}
+
+
+
+ 
+
+
+
+ 
+
+
+
+.kit_icon{ position:absolute; background:url(images/about_content_kits_cater_icon.png) no-repeat left top; left: 0px;
+
+
+
+top: 893px; width:71px; height:97px; z-index: 1;}
+
+
+
+
+
+
+
+.about_kit_bg_top{ position:relative; background:url(images/about_content_kits_cater_top.png) no-repeat center top; width:734px; height:14px; margin-top:50px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about_kit_bg_mid{ position:relative; background:url(images/about_content_kits_cater_mid.png) repeat-y center top; width:734px; height:auto;}
+
+
+
+
+
+
+
+p.course span {font-size:24px; padding-top:0; color:#005288; padding-left:70px }
+
+
+
+
+
+
+
+
+
+
+
+.about_kit{ position:relative; width:auto; height:auto; padding-top: 17px; margin-left:34px;}
+
+
+
+
+
+
+
+ul.kit_list{ margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.kit_list li{  position:relative; display:block;width:auto;height:auto; background:url(images/benefits_creativity_tick.png) no-repeat left center; height:24px; width:auto;   padding-left:32px; padding-top:10px; padding-bottom:10px; line-height:24px; padding-right:35px; 
+
+
+
+ font-style:italic; color:#005288;}
+
+
+
+ul.kit_list li:first-child{ margin-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+.about_kit_bg_bottom{ position:relative; background:url(images/about_content_kits_cater_bottom.png) no-repeat center top; width:734px; height:14px; margin-bottom:15px;}
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+.about_us{ position:relative; width:260px; height:auto; margin-top: -6px; margin-bottom:20px;}
+
+
+
+
+
+
+
+/*p.about_heading {padding-top:0; }*/
+
+
+
+
+
+
+
+h3.about_heading {font-size:29px; padding-top:0; padding-left:18px; padding-bottom:9px; color:#005288; background:url(images/about_right_seprator.png) repeat-x center bottom; font-weight:bold; }
+
+
+
+
+
+
+
+ul.about { margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.about li{  position:relative; display:block;width:auto;height:auto; background:url(images/about_right_seprator.png) repeat-x center bottom; height:24px; width:auto; line-height:24px; font-size:18px; padding:13px 0 13px 18px; }
+
+
+
+
+
+
+
+ul.about li a{ color:#707070; }
+
+
+
+
+
+
+
+ul.about li a:hover{ color:#005288; text-decoration:none; }
+
+
+
+
+
+
+
+.about_kit_bg_bottom{ position:relative; background:url(images/about_content_kits_cater_bottom.png) no-repeat center top;
+
+
+
+ width:734px; height:14px; margin-bottom:15px;}
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+.f_left{position:relative; float:left; width: 255px;height: auto;margin-left: 40px;margin-top: 35px; font-size:12px;}
+
+.f_left a {font-size:12px; color: #707070; text-decoration: none;}
+
+.f_left a:hover {font-size:12px; color: #005288;}
+
+
+
+
+.f_left p{ line-height: 18px; padding:0px;}
+
+
+
+
+
+
+
+.f_logo{	position:relative;	width:auto;	height:auto;padding:0px 0px 16px 1px;}
+
+
+
+
+
+
+
+.f_center{position:relative; float:left;  width:auto; height:auto; margin:16px 0 0 63px; }
+
+
+
+ 
+
+
+
+ul.f_menu{ margin:0;	padding:0;list-style:none; }
+
+
+
+
+
+
+
+ul.f_menu li{  position:relative; font-size:15px;  	padding:0px 0px 0px 1px;	width:auto;	height:auto; display:block;}
+
+
+
+
+
+
+
+ul.f_menu li a{	text-decoration:none; color:#707070; }
+
+
+
+
+
+
+
+ul.f_menu li a:hover {text-decoration:none; color:#005288;}
+
+
+
+
+
+
+
+
+
+
+
+.f_rite{position:relative; float:right; width: auto;height: auto;margin-right: 39px;margin-top: 16px; font-size:15px; }
+
+
+
+
+
+
+
+.f_rite p{ padding-top:0px;padding-bottom:16px; line-height:normal;}
+
+
+
+
+
+
+
+
+
+
+
+.wp-super-faq-question-open { font-size:20px; background:url(http://www.cooljunk.in/wp-content/uploads/2013/04/faq_content_minus_sign.png) no-repeat 690px center; display:block; padding-bottom: 10px;
+
+
+
+border: #E5E5E5 1px solid;padding-top: 10px;border-radius: 8px 8px 0px 0px;padding-left: 10px;padding-right: 34px;
+
+
+
+border-bottom: none;} 
+
+
+
+
+
+
+
+h4 a{color:#005288; margin-top:20px; text-transform:none;}
+
+
+
+
+
+
+
+h4 a:hover{ text-decoration:none;}
+
+
+
+
+
+
+
+.wp-super-faq-answer {padding:10px; padding-bottom: 10px;border: #E5E5E5 1px solid;padding-top: 10px;border-radius: 0px 0px 8px 8px;padding-left: 10px;padding-right: 16px;width: 700px; border-top: none; overflow: hidden; line-height:25px;}
+
+
+
+
+
+
+
+.wp-super-faq-question-closed { font-size:20px; background:url(http://www.cooljunk.in/wp-content/uploads/2013/04/faq_content_plus_sign.png) no-repeat 690px center; display:block;padding-bottom: 10px;
+
+
+
+border: #E5E5E5 1px solid;padding-top: 10px;border-radius: 8px;padding-left: 10px;padding-right: 34px;}
+
+
+
+
+
+
+
+.wp-super-faq-triangle { display:none;}
+
+
+
+
+
+
+
+#wpmem_reg small {display:none;}
+
+
+
+
+
+
+
+
+
+
+
+.blog_bg_mid .insider {
+
+
+
+padding:0 25px 25px;}
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-caption-description {
+
+
+
+padding: 0 !important;
+
+
+
+}
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-caption-description p{
+
+
+
+padding: 5px 0 !important;
+
+
+
+}
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-caption-description img{
+
+
+
+padding: 5px 38px !important;
+
+
+
+}
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-caption {
+
+
+
+color: #707070 !important;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(http://www.cooljunk.in/wp-content/uploads/2013/04/videos_bullet.png) no-repeat scroll 0 0 transparent !important;width: 12px;
+
+
+
+height: 11px; }
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+top: 319px !important;
+
+
+
+left: 92px !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default .cycloneslider-caption { background:none !important; top: 130px;}
+
+
+
+
+
+
+
+.blog_bg_mid .cycloneslider-template-default img {
+
+
+
+max-height: 148px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.about_testi_bg_mid .cycloneslider-slides { overflow:visible!important;}
+
+
+
+
+
+
+
+
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default img {
+
+
+
+display: block;width: auto; height: 45px; position:absolute; top:165px;
+
+
+
+}
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default .cycloneslider-caption { background:none !important;  color:#707070;}
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default .cycloneslider-caption-description{
+
+
+
+font-size:28px !important; font-style:italic !important; text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(http://www.cooljunk.in/wp-content/uploads/2013/04/videos_bullet.png) no-repeat scroll 0 0 transparent !important;width: 12px;
+
+
+
+height: 11px; }
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-slides { overflow:visible!important;}
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default img {
+
+
+
+display: none;}
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default .cycloneslider-caption { 
+
+
+
+background:none !important;  color:#707070;}
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default .cycloneslider-caption-description{
+
+
+
+font-size:28px !important; font-style:italic !important; text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+top: 90px !important;
+
+
+
+left: 330px !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(http://www.cooljunk.in/wp-content/uploads/2013/04/videos_bullet.png) no-repeat scroll 0 0 transparent !important;width: 12px;
+
+
+
+height: 11px; }
+
+
+
+
+
+
+
+.press_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+/************ *************/
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-slides { overflow:visible!important;}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default img {
+
+
+
+display: none;}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default .cycloneslider-caption { 
+
+
+
+background:none !important;  color:#707070;}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default .cycloneslider-caption-description{
+
+
+
+font-size:28px !important; font-style:italic !important; text-align:center;
+
+
+
+}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+top: 90px !important;
+
+
+
+left: 330px !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(http://www.cooljunk.in/wp-content/uploads/2013/04/videos_bullet.png) no-repeat scroll 0 0 transparent !important;width: 12px; margin-top: 42px;
+
+
+
+height: 11px; }
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+
+
+
+
+/******************** SUB PAGES CSS **********************/
+
+
+
+ 
+
+
+
+ 
+
+
+
+ /* CONTACT US - PAGE */
+
+
+
+ 
+
+
+
+.form_general{ position:relative; width:auto; height:auto; margin-top:12px; margin-bottom: 24px;}
+
+
+
+
+
+
+
+.label_left{	position:relative;	float:left;	width:150px;	margin:0;	padding:13px 0 0; font-size:18px;}
+
+
+
+.txtbx_left{	position:relative;	float:left;	width:286px; height:38px; 	margin:5px 0px 18px;	padding:0;}
+
+
+
+
+
+
+
+
+
+
+
+.label_rite{	position:relative;	float:right;	width:150px;	margin-right:265px;	padding:13px 0 0; font-size:18px;}
+
+
+
+.txtbx_rite{	position:relative;	float:right ;	width:286px;	height:38px; margin:5px 129px 18px 0px;	padding:0;}
+
+
+
+
+
+
+
+.txtbx_field{	outline:none; border:none;		width:276px;	height:38px;	line-height:38px;	vertical-align:middle;	margin:0;	padding:0 5px;	font-size:16px;  color:#707070; background:url(images/contactus_feild_name.png) no-repeat center top;	}
+
+
+
+	
+
+
+
+.msg{	position:relative;	float:none;	width:210px;	height:auto;	margin:5px 5px 0 0px;	padding:0;}
+
+
+
+
+
+
+
+.msg_field{	vertical-align:middle;	width:624px; height:107px;	margin:0;	padding:0;	resize:none;outline:none; border:none;background-color:transparent; background:url(images/contactus_feild_message.png) no-repeat center top;
+
+
+
+font-size:16px;  color:#707070;}
+
+
+
+	
+
+
+
+
+
+
+
+.btn_submit{ position:relative; background:url(images/contactus_btn_submit.png) no-repeat right top; width:155px; height:41px; 
+
+
+
+float:left; margin-top:21px;  border:none;  margin-left:2px; cursor:pointer;}
+
+
+
+
+
+
+
+p.contct_email { float:right; margin-right:128px; padding-top:12px; }
+
+
+
+
+
+
+
+span.req{ color:#cd1919;}
+
+
+
+
+
+
+
+hr.contct_sep{ background:url(images/contactus_form_seprator.png) no-repeat center top; border:none; height:18px;}
+
+
+
+
+
+
+
+.form_technical{ position:relative; width:auto; height:auto; margin-top:0px;  margin-bottom: 24px;}
+
+
+
+
+
+
+
+
+
+
+
+.map_top_bg{ position:relative; background:url(images/contactus_map_top.png) no-repeat center top; width:734px; height:46px; 
+
+
+
+margin-top:23px;}
+
+
+
+
+
+
+
+.map{ position:relativel; width:auto; height:auto; margin:0;}
+
+
+
+
+
+
+
+.map_top_left { position:relative; float:left; width:auto; height:auto; font-size:19px; font-weight:bold; color:#FFF; margin-left:25px; margin-top:6px;}
+
+
+
+
+
+
+
+.map_top_rite { position:relative; float:right; background:url(images/contact_us/contactus_google_map_arrow.png) no-repeat right center; width:auto; height:auto; font-size:19px; font-weight:bold; color:#FFF; margin-top:6px; padding-right:25px; margin-right:20px;}
+
+
+
+
+
+
+
+.map_top_rite a{ color:#FFF}
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ /* ELECTRONIC SERIES - PAGE */
+
+
+
+
+
+
+
+h1 span{ font-size:28px; color:#005288;}
+
+
+
+
+
+
+
+.series{ position:relative; width:auto; height:auto; margin-top:33px; margin-left:8px; margin-bottom: 30px;}
+
+
+
+
+
+
+
+.series_left{ position:relative; float:left; width:auto; height:166px; margin-right:0px;
+
+
+
+background:url(images/electronic_series_content_img_arrow.png) no-repeat center right;
+
+
+
+padding-right:65px;
+
+
+
+} 
+
+
+
+
+
+
+
+.series_rite{ position:relative; float:right; width:196px; height:166px; margin-right: 24px;
+
+
+
+background-image:url(../images/electronic_series_content_img2.png); 
+
+
+
+background-position: center top;
+
+
+
+ background-repeat: no-repeat;
+
+
+
+} 
+
+
+
+
+
+
+
+p.cj{ font-size:18px; padding-bottom:37px;}
+
+
+
+
+
+
+
+
+
+
+
+.cool_kit_left{  position:relative; float:left; width:310px; height:auto;margin-bottom: 12px; }
+
+
+
+
+
+
+
+.cool_kit_rite{  position:relative; float:right; width:328px; height:auto;  margin-right:18px;}
+
+
+
+
+
+
+
+h2.cool_kit_heading{ font-size:32px;}
+
+
+
+
+
+
+
+h3.electronics { font-size:24px; color:#005288;}
+
+
+
+
+
+
+
+
+
+
+
+hr.series_sep{ background:url(images/about_right_seprator.png) repeat-x center top;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INVESTORS - PAGE */
+
+
+
+
+
+
+
+p.investors{font-size:24px; padding-top: 29px; padding-bottom: 14px; }
+
+
+
+
+
+
+
+.btn_open_letter{ position:relative; width:311px; height:43px; margin-top:29px;}
+
+
+
+
+
+
+
+p.news_heading { font-size:26px;   color:#005288; font-weight:bold; padding-top: 47px; padding-bottom: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table{ font-size:14px; border: #FFF 1px solid; margin-left:-1px; margin-right: -1px; }
+
+
+
+
+
+
+
+table th{ background-color:#005288; color:#FFF; font-weight:bold; text-align:left; padding-left:25px;padding-top:7px; 
+
+
+
+padding-bottom:7px; }
+
+
+
+
+
+
+
+table tr.odd{ background-color:#f3f3f3;}
+
+
+
+
+
+
+
+table tr.even{ background-color:#e0e0e0;}
+
+
+
+
+
+
+
+table td { padding-top:7px; padding-bottom:7px; padding-left:25px; }
+
+
+
+
+
+
+
+table td a{ color:#707070;}
+
+
+
+
+
+
+
+table td a:hover{ color:#005288; text-decoration:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WHY PERSONAL LEARNING KITS - PAGE */
+
+
+
+
+
+
+
+
+
+
+
+p.fig{ padding-top:19px;}
+
+
+
+
+
+
+
+p.learn_heading{ font-size:26px;   color:#005288; font-weight:bold; padding-top: 26px; padding-bottom: 14px;line-height: 33px;}
+
+
+
+
+
+
+
+
+
+
+
+.quote_area { position:relative; width:auto; height:auto; margin-top: 15px;}
+
+
+
+
+
+
+
+span.open_quote{ position:relative; float:left; background:url(images/whypersonal_kits_content_quote_left.png) no-repeat center top; display:block; width:20px; height:16px;margin-left: 46px;margin-right: 5px;padding-bottom: 30px;}
+
+
+
+
+
+
+
+span.close_quote{ position:relative; float:right;  background:url(images/whypersonal_kits_content_quote_right.png) no-repeat center top; display:block; width:20px; height:16px; margin-top: -12px; margin-right: 72px;}
+
+
+
+
+
+
+
+
+
+
+
+p.quote{ font-size:20px; font-style:italic; padding: 18px 25px 0px 0;}
+
+
+
+
+
+
+
+p.expert{ font-size:19px; font-weight:bold; padding-top:8px;padding-left: 70px;
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+.learn_kit{ position:relative; width:auto; height:auto; margin-top: 8px; margin-left:20px;}
+
+
+
+
+
+
+
+ul.learn_list{ margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.learn_list li{  position:relative; display:block;width:auto;height:auto; background:url(images/benefits_creativity_tick.png) no-repeat left center; height:24px; width:auto;   padding-left:32px; padding-top:10px; padding-bottom:10px; line-height:24px; padding-right:35px;  font-style:italic; color:#005288; margin-bottom:15px;}
+
+
+
+
+
+
+
+span.close_quote2{ position:relative; float:right;  background:url(images/whypersonal_kits_content_quote_right.png) no-repeat center top; display:block; width:20px; height:16px; margin-top: -36px; margin-right: 279px;}
+
+
+
+
+
+
+
+
+
+
+
+/* CORE VALUES - PAGE */
+
+
+
+
+
+
+
+.core_values_banner {position:relative; width:734px;  height:415px; margin-top: 25px;margin-left: 0; padding:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OUR TEAM - PAGE */
+
+
+
+
+
+
+
+
+
+
+
+.person_img_left{ width:auto; height:auto; padding:27px 10px 10px 11px; float:left; z-index:8}
+
+
+
+
+
+
+
+.team_profile_rite{ position:relative; width:auto; height:auto; float:right; margin-top: 28px; margin-right: 35px;}
+
+
+
+
+
+
+
+.arrow_left{ position:absolute; background:url(images/ourteam_profile_content_bg_arrow_left.png) no-repeat center top; width:30px; height:40px; left:-29px; top:121px; z-index:9;}
+
+
+
+
+
+
+
+
+
+
+
+.person_img_rite{ width:auto; height:auto; padding:37px 37px 10px 0px; float:right; z-index:8}
+
+
+
+
+
+
+
+.team_profile_left{ position:relative; width:auto; height:auto; float:left; margin-top: 38px; margin-left: 10px; margin-bottom: 25px;}
+
+
+
+
+
+
+
+.arrow_rite{ position:absolute; background:url(images/ourteam_profile_content_bg_arrow_right.png) no-repeat center top; width:30px; height:40px; right:-27px; top:123px; z-index:9;}
+
+
+
+
+
+
+
+
+
+
+
+p.read_more { padding-top:8px; padding-left:2px;}
+
+
+
+p.read_more a{ color:#005288; }
+
+
+
+
+
+
+
+.diy_left{ position:relative; width:533px; height:auto; float:left; margin-top: 38px; margin-left: 10px; margin-bottom: 25px;}
+
+
+
+
+
+
+
+.diy_img_rite{ width:auto; height:auto; padding:84px 10px 10px 11px; float:right; z-index:8}
+
+
+
+
+
+
+
+
+
+
+
+th.myth{ font-size:20px;background-color:#005288; color:#FFF; font-weight:bold; text-align:left; padding-left:25px;padding-top:7px; 
+
+
+
+padding-bottom:7px;  }
+
+
+
+
+
+
+
+.reference{position:relative; width:auto; height:auto; margin-top: 8px; margin-left:20px;}
+
+
+
+
+
+
+
+ol.reference_list{ margin:0px;padding:0px;list-style:decimal; }
+
+
+
+
+
+
+
+ol.reference_list li{ line-height:25px;}
+
+
+
+
+
+
+
+
+
+
+
+/* OUR TEAM -SINGLE PERSON - PAGE */
+
+
+
+
+
+
+
+.team_single_profile{ position:relative; width:auto; height:auto; float:right; margin-top: 10px; margin-right: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+h5.person_name{ font-size:20px; text-align:center; padding-top: 7px;}
+
+
+
+
+
+
+
+p.person_post{ text-align:center; padding:0px; line-height: 21px;}
+
+
+
+
+
+
+
+
+
+
+
+.team_single_bg_top{ position:relative; background:url(images/ourteam_profile_content_bg_top.png) no-repeat center top; width:527px; height:15px; }
+
+
+
+
+
+
+
+.team_single_bg_mid{ position:relative; background:url(images/ourteam_profile_content_bg_mid.png) repeat-y center top; width:527px; height:auto;}
+
+
+
+
+
+
+
+.team_single_bg_mid p{ padding:5px 19px;}
+
+
+
+
+
+
+
+.team_single_arrow{ position:absolute; background:url(images/ourteam_profile_content_bg_arrow_left.png) no-repeat center top; width:30px; height:40px; left:-29px; top:150px; z-index:9;}
+
+
+
+
+
+
+
+.team_single_bg_bottom{ position:relative; background:url(images/ourteam_profile_content_bg_bottom.png) no-repeat center top;
+
+
+
+ width:527px; height:12px;}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+.core_values_banner .cycloneslider-template-default .cycloneslider-pager a {
+
+
+
+background: url(http://www.cooljunk.in/wp-content/uploads/2013/04/videos_bullet.png) no-repeat scroll 0 0 transparent !important;
+
+
+
+width: 12px;
+
+
+
+height: 11px;
+
+
+
+}
+
+
+
+
+
+
+
+.core_values_banner .cycloneslider-template-default .cycloneslider-pager a.activeSlide {
+
+
+
+background-position: left bottom !important;
+
+
+
+}
+
+
+
+
+
+
+
+.core_values_banner .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+position: absolute;
+
+
+
+z-index: 99;
+
+
+
+top: 386px;
+
+
+
+right: 350px;
+
+
+
+}
+
+
+
+
+
+
+
+/* OPEN LETTER TO INVESTORS - PAGE*/
+
+
+
+
+
+
+
+ul.letter_list{ margin:0px;padding:0px;list-style:none;}
+
+
+
+
+
+
+
+ul.letter_list li{  position:relative; display:block;width:auto;height:auto; background:url(images/benefits_creativity_tick.png) no-repeat left center; height:24px; width:auto;   padding-left:32px; padding-top:5px; padding-bottom:5px; line-height:24px; padding-right:35px;  font-style:italic; color:#005288;}
+
+
+
+
+
+
+
+/* PRESS - PAGE */
+
+
+
+
+
+
+
+.press_testi_bg_top {position:relative; background:url(images/press_testimonials_top.png) no-repeat center top; width:734px; height:45px; margin-top:20px;}
+
+
+
+
+
+
+
+.press_testi_bg_mid{ position:relative; background:url(images/press_testimonials_mid.png) repeat-y center top; width:734px; height:auto;}
+
+
+
+
+
+
+
+.press_testi_bg_bottom{ position:relative; background:url(images/press_testimonials_bottom.png) no-repeat center top;
+
+
+
+ width:734px; height:13px; margin-bottom:15px;}
+
+
+
+
+
+
+
+.press_thinkiota_bg_mid{ position:relative; background:url(images/press_testimonials_mid.png) repeat-y center top; width:734px; height:auto;}
+
+
+
+
+
+
+
+.about_testi_bg_mid .cycloneslider-template-default .cycloneslider-pager {
+
+
+
+position: absolute;
+
+
+
+z-index: 99;
+
+
+
+top: 100px;
+
+
+
+right: 336px;
+
+
+
+}
+
+
+
+/* CONTACT FORM - CSS */
+
+
+
+
+
+
+
+.wpcf7-response-output {
+
+
+
+margin: 5em 0.5em 1em !important;}
+
+
+
+
+
+
+
+.alignleft {float:left;}
+
+
+
+.alignright {float:right;}
+
+
+
+.row { margin-top:10px;}
+
+
+
+
+
+
+
+
+
+
+
+#back-top {
+
+
+
+position: fixed;
+
+
+
+bottom: 20px;
+
+
+
+left: -23px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#back-top a {
+
+
+
+width: 125px;
+
+
+
+display: block;
+
+
+
+text-align: center;
+
+
+
+font: 11px/100% Arial,Helvetica,sans-serif;
+
+
+
+text-transform: uppercase;
+
+
+
+text-decoration: none;
+
+
+
+color: #bbb;
+
+
+
+-webkit-transition: 1s;
+
+
+
+-moz-transition: 1s;
+
+
+
+transition: 1s;
+
+
+
+font-weight: 700;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#back-top span {
+
+
+
+width: 125px;
+
+
+
+height: 41px;
+
+
+
+display: block;
+
+
+
+margin-bottom: 7px;
+
+
+
+-webkit-border-radius: 15px;
+
+
+
+-moz-border-radius: 15px;
+
+
+
+border-radius: 15px;
+
+
+
+-webkit-transition: 1s;
+
+
+
+-moz-transition: 1s;
+
+
+
+transition: 1s;
+
+
+
+}
+
+
+
+
+
+/* payU integration */
+
+
+
+.buy-cart{
+
+	position:relative; 
+
+	border: solid #707070 1px; 
+
+	width: 1053px; 
+
+	margin-left:24px; 
+
+	margin-top:20px;
+
+}
+
+
+
+.cart-sub-heading{
+
+	font-family: 'Calibri', Arial, Helvetica, sans-serif;
+
+	font-size:18px;
+
+	color:#FFFFFF;
+
+}	
+
+
+
+.cart-total-chkout-btn{
+
+	position:relative;
+
+	float:right;
+
+	padding-right:20px;
+
+
+
+}
+
+
+
+ /* YOUR CART - PAGE */
+
+ 
+
+table.cart{ position:relative; width:100%; height:auto; margin-top:20px; font-size:16px;}
+
+
+
+table.cart tr th { background-color:#707070; font-size:18px; font-weight:normal; padding:0px; }
+
+
+
+table.cart tr td { padding-left:0px;}
+
+
+
+table.cart tr td span.item_name{ font-size:20px; font-weight:bold; color:#005288;}
+
+
+
+table.cart tr td span.kit_name{ font-size:20px; font-weight:bold;} 
+
+
+
+table.cart .prod_img_bg { position:relative; width:110px; height:110px; padding:5px;border:1px solid #c7c7c7; border-radius:4px; margin-top:15px; margin-left:25px; }
+
+
+
+table.cart .prod_img_bg img{ padding:5px 5px 7px;}
+
+
+
+.prod_txtbx{ position: relative;float: left;background: none;border: 1px solid #c7c7c7;width: 52px;height: 25px;border-radius: 6px; }
+
+
+
+.prod_txtfield {position: relative;background: none;width: 52px;height: 18px;margin-top: 3px;border: none;outline: none;
+
+margin-left: 1px;font-size: 16px;color: #707070;padding-left: 10px;}
+
+
+
+.btn_remove{ position:relative; float: left; margin-left:5px; border: none;outline: none; cursor:pointer;
+
+background:url(../images/cart_btn_remove.png) no-repeat center top;  width:28px; height:27px; }
+
+ 
+
+
+
+
+
+ /* DELIVERY NOTIFICATION - PAGE */
+
+ 
+
+.notification { position:relative; width:600px; height:auto; margin: 0 auto; font-family:Arial;}
+
+
+
+.notification h3{ text-align:center; padding-top:20px; text-decoration:underline; font-family:Arial; font-size:30px;}
+
+
+
+.notification p span.blue{ color:#005288;}
+
+
+
+table.cart .invoice_prod_img_bg { position:relative; width:77px; height:77px; padding:5px;border:1px solid #c7c7c7; border-radius:4px; margin-top:15px; margin-left:25px; }
+
+
+
+table.cart .invoice_prod_img_bg img{ padding:0px 1px;}
+
+
+
+ /* INVOICE NOTIFICATION - PAGE */
+
+ 
+
+.shippment{position:relative; float:left; width:230pxpx; height:auto; margin-top:0px; }
+
+
+
+h5.shippment_heading{ font-size:22px; padding-bottom:10px;}
+
+
+
+.billing{position:relative; float:right; width:230pxpx; height:auto; margin-top:0px; margin-right:0px; }
+
+
+
+ /* SHIPPING BILLING - PAGE */
+
+ 
+
+ .checkbox_billing {
+
+ margin-bottom: 20px;
+
+ }
+
+ 
+
+ /* Thanks, Cancel and other message page. */
+
+ 
+
+h4.new-subheading{text-transform:none}
+
+ 
+
+.msgs-subheading{color:#005288;	font-size:23px;	margin:0;padding: 0px; text-transform:none;}
+
+
+.bootcamp_button {
+	position: fixed;
+	height: 291px;
+	width: 79px;
+	top: 100px;
+	z-index: 9999;
+	border: none;
+	outline: none;
+	margin: 0px;
+}
+.bootcamp_singlerow_left{
+	position:relative;
+	width: auto;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+	margin-right:50px;
+	}
+.bootcamp_singlerow_right{
+	position:relative;
+	width: 310px;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+	margin-right: 25px;
+	}
+
+
+/****** BOOK DEMO - PAGE ********/
+
+
+/* BOOK DEMO - BANNER */
+
+.demo_banner {	position:relative; width:1098px;  height:669px; margin:0 auto; padding:0; margin-left:1px;}
+
+.demo_banner_vid1 { position:absolute; height: 90px;top: 486px;left: 20px; font-size:18px; text-align:center;}
+
+.demo_banner_vid2 { position:absolute; width:160px; height:90px; top:486px; left:196px; font-size:18px; text-align:center;}
+
+
+
+.meet_bg{ position:relative; background:url(images/meeting_bg.jpg) no-repeat center top; width:1098px; height:112px; margin:0 auto;}
+.meet_bg h1{ font-size:40px; text-align:center; padding: 30px 0;}
+
+
+
+.greetings_bg{ position:relative; background:url(images/img_entering.jpg) no-repeat center top; width:1098px; height:318px; margin:0 auto;}
+.greetings_rite{ position:relative;float:right; width: 500px;height: auto;text-align: center;margin-right: 55px;margin-top: 75px; }
+
+
+.explore_bg{ position:relative;  background:url(images/img_explore.jpg) no-repeat center top; width:1098px; 
+height:411px; margin:0 auto;}
+.explore_left{ position:relative;float:left; width: 520px;height: auto;text-align: center;margin-left: 54px;margin-top: 117px; }
+
+.demo_kit_bg{ position:relative; background:url(images/img_about.jpg) no-repeat center top; width:1098px; height:346px; margin:0 auto;}
+.demo_kit_rite{ position:relative;float:right; width: 419px;text-align: center;margin-right: 98px;margin-top: 75px;}
+
+
+.demo_bottom_content{position:relative;   width:990px; height:auto; margin:9px auto 0;}
+
+h3.demo_btm_heading{ text-align:center; color:#105c8f; font-weight:bold;}
+h3.demo_btm_heading span{ font-size:43px; color:#4c4c4c;}
+
+
+.customers{  position:relative; float: left;width: auto;height: auto;padding-left: 15px;margin-top: 35px; }
+.customers_img{position: relative;	width:auto;	height:auto;	float:left;	margin-left:10px; padding-bottom:10px; font-size:15px;}
+.customers p{ line-height: 6px; padding-left:10px;}
+
+
+.demo_testi_bg{ position:relative; float: right; background-color:#F2F2F2 ; width: 661px;height: auto;margin-right: 15px;margin-top: 35px;padding: 22px 5px;border-radius: 5px 5px 0 0;}
+
+.demo_testi_bg_bottom{ position:relative; float: right; background:url(images/testimonial_bg_bottom.png) no-repeat center top; width: 671px;height: 35px;margin-right: 15px;}
+
+.demo_testi_bg p{ font-size:23px; text-align:center; font-style:italic; line-height: 30px;}
+
+.demo_testi_logo_rite {position:relative; float: right;width: auto;height: auto;padding-right: 15px;margin-top: 5px;margin-bottom: 10px; }
+
+
+hr.demo_sep{ background:url(images/bookdemo_sep.jpg) no-repeat center top; width:1098; height:27px;
+ margin:0px auto; padding: 10px 0; }
+
+
+.demo_form_bg{ position:relative;background-color:#015289 ; border-bottom:5px solid #022D4D; width: auto;height: auto;
+padding: 18px 20px;border-radius: 5px ;}
+
+.demo_left {position:relative;	width: 464px;	height: auto;	float: left;margin-top: 20px;	margin-left:10px;}
+.demo_left h1{ font-size:40px; color:#ffffff; line-height: 40px;}
+
+.demo_left h4{color:#c7eeff;	font-size:24px;	padding: 10px 0; text-transform:none;}
+
+.demo_left ul.kit_list li{color:#c7eeff; margin-bottom: 15px; font-size: 20px;}
+
+.demo_rite {position:relative;	width: 468px;	height: auto;	float: right;	margin-top: 14px;}
+
+.demo_form{position:relative;background-color:#FFF; border-radius: 5px ;	width: auto;	height: auto;	margin-left: 15px; padding:15px 10px;}
+
+.label_demo{position:relative;	float:left;	width:240px;	margin:0;	padding:0; }
+.txtbx_demo{position:relative;	float:left;outline:none; background-color:transparent;	width:160px;	height:18px;	line-height:18px; vertical-align:middle; padding-left:10px; border:1px solid #ccc; margin-left: 8px;}
+.dropdown_demo{position:relative; float:left;	width:173px; margin-left: 8px; padding:0;}
+.dropdown_demo_inner{width:173px}
+
+.demo_form .btn_submit{ margin-left:150px;}
+
+.wpcf7-date {width:173px;}
+
+.ui-datepicker {top:2720px !important;}
